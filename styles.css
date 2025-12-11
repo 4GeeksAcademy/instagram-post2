@@ -1,0 +1,82 @@
+* {
+    font-family: "Roboto";
+    color: black;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.post-ig {
+    background-color: white;
+    width: 500px;
+    height: 700px;
+}
+
+.header-ig {
+    display: flex;
+    flex-direction: row;
+}
+
+#logo-html5 {
+    height: 70px;
+    width: 70px;
+}
+
+.texto-html {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+h2 {
+    margin-top: 0px;
+    font-size: 15px;
+}
+
+.iajustes {
+    height: 50px;
+    width: 50px;
+    margin-left: 320px;
+    padding-top: 10px;
+}
+
+.foto-ig {
+    width: 500px;
+    height: 400px;
+}
+
+.icons-ig {
+    display: flex;
+    flex-direction: row;
+}
+
+.ilike {
+    width: 40px;
+    height: 40px;
+
+}
+
+.icomment {
+    width: 35px;
+    height: 35px;
+}
+
+.ienviar {
+    width: 35px;
+    height: 35px;
+}
+
+.iguardar {
+    width: 40px;
+    height: 40px;
+    float: right;
+}
+
+.comentarios-ig {
+}
