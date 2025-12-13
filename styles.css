@@ -1,6 +1,6 @@
 * {
-    font-family: "Roboto";
     color: black;
+    font-family: Roboto;
 }
 
 body {
@@ -18,9 +18,17 @@ body {
     flex-direction: row;
 }
 
-#logo-html5 {
-    height: 70px;
-    width: 70px;
+
+.izq-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.logo-html5 {
+    height: 50px;
+    width: 50px;
 }
 
 .texto-html {
@@ -29,9 +37,9 @@ body {
 }
 
 h1 {
-    font-size: 20px;
+    font-size: 15px;
     margin-bottom: 5px;
-    margin-top: 10px;
+    font-weight: bold;
 }
 
 h2 {
@@ -40,10 +48,10 @@ h2 {
 }
 
 .iajustes {
-    height: 50px;
-    width: 50px;
-    margin-left: 320px;
-    padding-top: 10px;
+    height: 40px;
+    width: 40px;
+    margin-left: auto;
+    align-self: center;
 }
 
 .foto-ig {
@@ -51,32 +59,40 @@ h2 {
     height: 400px;
 }
 
-.icons-ig {
+.iconos-ig {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.izq-iconos {
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .ilike {
-    width: 40px;
-    height: 40px;
-
+    width: 30px;
+    height: 30px;
 }
 
 .icomment {
-    width: 35px;
-    height: 35px;
+    width: 25px;
+    height: 25px;
 }
 
 .ienviar {
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
 }
 
 .iguardar {
-    width: 40px;
-    height: 40px;
-    float: right;
+    width: 30px;
+    height: 30px;
 }
 
 .comentarios-ig {
+    padding: 0px 10px;
 }
